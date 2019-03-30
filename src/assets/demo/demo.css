@@ -49,6 +49,84 @@
   z-index: 1;
 }
 
+
+.sidebar-wrapper  {
+  background-color: #191E6F !important;
+}
+
+.main-panel {
+  border-top:  2px #191E6F !important;
+}
+
+.logo-img  img{
+   width:45px ;
+   height:20px ;
+   border-radius: 0px;
+   margin-left: 2px;
+}
+
+hr {
+  background-color: white;
+}
+
+.form-check {
+  margin-left: 35px;
+}
+
+.form-check h4 {
+  font-size: 13px;
+}
+
+.form-check-input {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: black;
+     top: 4px;
+     height: 15px;
+     width: 15px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+
+.form-check-input:checked::before {
+     position: absolute;
+     font: 12px/1 'Open Sans', sans-serif;
+     left: 4px;
+     top: 1px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+
+.form-check-input:hover {
+     background-color: #f7f7f7;
+}
+.form-check-input:checked
+{
+     background-color: #f1f1f1;
+}
+
+.copyright a {
+  color: #FA0601;
+}
+
+.copyright a:hover {
+  color: white; 
+}
+
+.icon-heart-2 {
+  color: #FA0601;
+}
+
+
+/*----------------end custom CSS---------------------------------------------------*/
+
 @media all and (min-width: 992px) {
   .sidebar .nav>li.active-pro {
     position: absolute;

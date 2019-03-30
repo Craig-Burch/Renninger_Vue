@@ -4,24 +4,24 @@
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="http://www.creative-tim.com">
-            Creative Tim
+            Renninger Design
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://blog.creative-tim.com">
-            Blog
+            Contact
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://www.creative-tim.com/license">
-            Licenses
+            About
           </a>
         </li>
       </ul>
       <div class="copyright">
         © {{year}} made with <i class="tim-icons icon-heart-2"></i> by
-        <a href="https://www.binarcode.com" target="_blank" rel="noopener">Binar Code</a>&nbsp;&
-        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Creative Tim</a> for a better web.
+        <a href="http://ilovecode.tech/" target="_blank" rel="noopener">Craig Burch</a>@
+        <a href="http://ilovecode.tech/" target="_blank" rel="noopener">iLoveCode.Tech</a> for a better web.
       </div>
     </div>
   </footer>
