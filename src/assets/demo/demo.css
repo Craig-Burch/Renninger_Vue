@@ -124,6 +124,50 @@ hr {
   color: #FA0601;
 }
 
+/*Porfolio Page Overlay Effects*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #191E6F;
+}
+.workcontainer:hover .overlay {
+  opacity: 1;
+}
+.text {
+  display:block;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text a {
+  display: block;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+}
+
+address { 
+  display: block;
+}
 
 /*----------------end custom CSS---------------------------------------------------*/
 
@@ -138,4 +182,22 @@ hr {
 .card.card-upgrade .card-category {
   max-width: 530px;
   margin: 0 auto;
+}
+
+/*Handle footer responsiveness on smaller screens*/
+@media only screen and (max-width:600px) {
+.col-sm-3 {
+   width: 20% !important;
+   margin-left: 20px;
+  }
+}
+@media only screen and (max-width:480px) {
+.col-sm-3 {
+   margin-left: 15px;
+  }
+}
+@media only screen and (max-width:425px) {
+.col-sm-3 {
+   margin-left: 10px;
+  }
 }

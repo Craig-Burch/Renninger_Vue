@@ -33,7 +33,7 @@
               <!-- <input type="text" class="form-control" placeholder="Search...">
               <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
               <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal">
-                <i class="tim-icons icon-zoom-split"></i>
+              <!--   <i class="tim-icons icon-zoom-split"></i> -->
               </button>
               <!-- You can choose types of search input -->
             </div>
@@ -44,13 +44,13 @@
                    :show-close="true">
               <input slot="header" v-model="searchQuery" type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
             </modal>
-            <base-dropdown tag="li"
+          <!--   <base-dropdown tag="li"
                            :menu-on-right="!$rtl.isRTL"
                            title-tag="a" class="nav-item">
               <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
-                <div class="notification d-none d-lg-block d-xl-block"></div>
-                <i class="tim-icons icon-sound-wave"></i>
-                <p class="d-lg-none">
+                <div class="notification d-none d-lg-block d-xl-block"></div> -->
+                <!-- <i class="tim-icons icon-sound-wave"></i> -->
+               <!--  <p class="d-lg-none">
                   New Notifications
                 </p>
               </a>
@@ -69,22 +69,22 @@
               <li class="nav-link">
                 <a href="#" class="nav-item dropdown-item">Another one</a>
               </li>
-            </base-dropdown>
-            <base-dropdown tag="li"
+            </base-dropdown> -->
+           <!--  <base-dropdown tag="li"
                            :menu-on-right="!$rtl.isRTL"
                            title-tag="a"
                            class="nav-item"
                            menu-classes="dropdown-navbar">
               <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
-                <div class="photo">
-                  <img src="img/anime3.png">
-                </div>
+                <div class="photo"> -->
+                  <!-- <img src="img/anime3.png"> -->
+               <!--  </div>
                 <b class="caret d-none d-lg-block d-xl-block"></b>
                 <p class="d-lg-none">
                   Log out
                 </p>
-              </a>
-              <li class="nav-link">
+              </a> -->
+             <!--  <li class="nav-link">
                 <a href="#" class="nav-item dropdown-item">Profile</a>
               </li>
               <li class="nav-link">
@@ -93,7 +93,7 @@
               <div class="dropdown-divider"></div>
               <li class="nav-link">
                 <a href="#" class="nav-item dropdown-item">Log out</a>
-              </li>
+              </li> -->
             </base-dropdown>
           </ul>
         </div>

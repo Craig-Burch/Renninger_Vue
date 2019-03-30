@@ -3,17 +3,17 @@
     <div class="container-fluid">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="http://www.creative-tim.com">
+          <a class="nav-link" href="">
             Renninger Design
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://blog.creative-tim.com">
+          <a class="nav-link" href="">
             Contact
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://www.creative-tim.com/license">
+          <a class="nav-link" href="">
             About
           </a>
         </li>
