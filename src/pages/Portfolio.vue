@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages.jpg" target="blank">
        <div class="workcontainer">
@@ -16,7 +16,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages2.jpg" target="blank">
         <div class="workcontainer"> 
@@ -32,7 +32,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages3.jpg" target="blank">
        <div class="workcontainer">
@@ -48,7 +48,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages4.jpg" target="blank">
         <div class="workcontainer"> 
@@ -64,7 +64,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages5.jpg" target="blank">
        <div class="workcontainer">
@@ -80,7 +80,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages7.jpg" target="blank">
         <div class="workcontainer"> 
@@ -96,7 +96,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages8.jpg" target="blank">
        <div class="workcontainer">
@@ -112,7 +112,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages9.jpg" target="blank">
         <div class="workcontainer"> 
@@ -128,7 +128,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages10.jpg" target="blank">
        <div class="workcontainer">
@@ -144,7 +144,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages11.jpg" target="blank">
         <div class="workcontainer"> 
@@ -160,7 +160,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages14.jpg" target="blank">
        <div class="workcontainer">
@@ -176,7 +176,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages15.jpg" target="blank">
         <div class="workcontainer"> 
@@ -192,7 +192,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages16.jpg" target="blank">
        <div class="workcontainer">
@@ -208,7 +208,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
         <a href ="/img/PortfolioPages17.jpg" target="blank">
         <div class="workcontainer"> 
@@ -224,7 +224,7 @@
         </a>
       </card>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <card>
       <a href ="/img/PortfolioPages18.jpg" target="blank">
        <div class="workcontainer">

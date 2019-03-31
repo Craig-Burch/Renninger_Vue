@@ -15,7 +15,7 @@
         </div>
         <a class="navbar-brand" href="#pablo">{{routeName}}</a>
       </div>
-      <button class="navbar-toggler" type="button"
+     <!--  <button class="navbar-toggler" type="button"
               @click="toggleMenu"
               data-toggle="collapse"
               data-target="#navigation"
@@ -24,7 +24,7 @@
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
-      </button>
+      </button> -->
 
       <collapse-transition>
         <div class="collapse navbar-collapse show" v-show="showMenu">
@@ -32,18 +32,18 @@
             <div class="search-bar input-group" @click="searchModalVisible = true">
               <!-- <input type="text" class="form-control" placeholder="Search...">
               <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
-              <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal">
+             <!--  <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"> -->
               <!--   <i class="tim-icons icon-zoom-split"></i> -->
-              </button>
+              <!-- </button> -->
               <!-- You can choose types of search input -->
             </div>
-            <modal :show.sync="searchModalVisible"
+           <!--  <modal :show.sync="searchModalVisible"
                    class="modal-search"
                    id="searchModal"
                    :centered="false"
                    :show-close="true">
               <input slot="header" v-model="searchQuery" type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
-            </modal>
+            </modal> -->
           <!--   <base-dropdown tag="li"
                            :menu-on-right="!$rtl.isRTL"
                            title-tag="a" class="nav-item">

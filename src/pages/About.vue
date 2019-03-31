@@ -2,22 +2,26 @@
   <div class="container-fluid bg-1 text-center">
     <h1>A Man and A Dream.</h1>
     <img src="img/portrait2.png" alt="portrait">
-    <h2>An artist eager to grow and give.</h2>
+    <h2 style="margin-top: 2%;">An artist eager to grow and give.</h2>
     <h3>I've recently Graduated from Antonelli Institute and I'm very excited to push forward to a future as a Graphic Designer. I want to bring a new feeling to design and how the world interacts with it. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create design fit for our surroundings..</h3>
-     <h2>Services</h2>
+    <hr>
+  <h1>Services</h1>
   <div class="row">
     <div class="col-sm-4">
-      <h3>Strategy</h3>
-      <h3>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing experiences start.</h3>
-    </div>
-    <div class="col-sm-4">
       <h3>Graphic Design</h3>
+      
       <h3>
       My goal is to provide functional work that will timelessly represent you. I strive to create perfect design that creates a sense of pride for your brand.
     </h3>
     </div>
+    <div class="col-sm-4">
+      <h3>Strategy</h3>
+     
+      <h3>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing experiences start.</h3>
+    </div>
     <div class="col-sm-4"> 
       <h3>Illustration</h3>
+      
       <h3>My design reflects my background in Illustration, I supply an eye catching style that evokes one's imagination.</h3>
     </div>
   </div>
