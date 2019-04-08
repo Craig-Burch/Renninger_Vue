@@ -10,7 +10,7 @@
           <div class="typography-line">
             <h1>
               <span>PHONE</span>
-              <a href="tel:+2678855347" target="blank">
+              <a href="tel:267-885-5347" target="blank">
                267-885-5347
               </a>
             </h1>

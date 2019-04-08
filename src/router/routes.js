@@ -4,6 +4,7 @@ import NotFound from "@/pages/NotFoundPage.vue";
 
 // pages
 const Portfolio = () => import(/* webpackChunkName: "common" */ "@/pages/Portfolio.vue");
+const Branding = () => import(/* webpackChunkName: "common" */ "@/pages/Branding.vue");
 const About = () => import(/* webpackChunkName: "common" */ "@/pages/About.vue");
 const Contact = () => import(/* webpackChunkName: "common" */ "@/pages/Contact.vue");
 
@@ -18,6 +19,11 @@ const routes = [
         path: "portfolio",
         name: "portfolio",
         component: Portfolio
+      },
+      {
+        path: "branding",
+        name: "branding",
+        component: Branding
       },
       {
         path: "about",

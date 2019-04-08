@@ -3,17 +3,17 @@
     <div class="container-fluid">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="http://renninger.design/#/portfolio">
             Renninger Design
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="http://renninger.design/#/contact">
             Contact
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="http://renninger.design/#/about">
             About
           </a>
         </li>

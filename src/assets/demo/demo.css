@@ -49,7 +49,7 @@
   z-index: 1;
 }
 
-
+/*----------------start custom CSS---------------------------------------------------*/
 .sidebar-wrapper  {
   background-color: #191E6F !important;
 }
@@ -135,9 +135,39 @@ hr {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  background-color: #E24407;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #EC7203;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
   background-color: #191E6F;
 }
 .workcontainer:hover .overlay {
+  opacity: 1;
+}
+.workcontainer:hover .overlay2 {
+  opacity: 1;
+}
+.workcontainer:hover .overlay3 {
   opacity: 1;
 }
 .text {
@@ -168,8 +198,49 @@ hr {
 address { 
   display: block;
 }
+/*----------------------branding page css---------------------------------------*/
 
-/*----------------end custom CSS---------------------------------------------------*/
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 385px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
 
 @media all and (min-width: 992px) {
   .sidebar .nav>li.active-pro {
@@ -199,5 +270,111 @@ address {
 @media only screen and (max-width:425px) {
 .col-sm-3 {
    margin-left: 10px;
+  }
+}
+
+/*------------branding page media queries---------------------------------------------*/
+@media only screen and (max-width:1600px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 300px;
+  }
+}
+
+@media only screen and (max-width:1440px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 260px;
+  }
+}
+
+@media only screen and (max-width:1280px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 230px;
+  }
+}
+
+@media only screen and (max-width:1080px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 175px;
+  }
+}
+
+@media only screen and (max-width:994px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 200px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 175px;
+  }
+}
+
+@media only screen and (max-width:767.5px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 520px;
+  }
+}
+
+@media only screen and (max-width:750px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 500px;
+  }
+}
+
+@media only screen and (max-width:730px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 480px;
+  }
+}
+@media only screen and (max-width:710px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 460px;
+  }
+}
+@media only screen and (max-width:690px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 445px;
+  }
+}
+@media only screen and (max-width:670px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 430px;
+  }
+}
+@media only screen and (max-width:600px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 400px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 350px;
+  }
+}
+
+@media only screen and (max-width:425px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 275px;
+  }
+}
+
+
+@media only screen and (max-width:375px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 250px;
+  }
+}
+
+@media only screen and (max-width:350px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 225px;
+  }
+}
+
+@media only screen and (max-width:325px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 200px;
   }
 }

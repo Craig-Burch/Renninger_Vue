@@ -1,72 +1,29 @@
 <template>
   <div class="container-fluid bg-1 text-center">
-    <h1>A Man and A Dream.</h1>
+    <h1>A Man and a Dream.</h1>
     <img src="img/portrait2.png" alt="portrait">
-    <h2 style="margin-top: 2%;">An artist eager to grow and give.</h2>
-    <h3>I've recently Graduated from Antonelli Institute and I'm very excited to push forward to a future as a Graphic Designer. I want to bring a new feeling to design and how the world interacts with it. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create design fit for our surroundings..</h3>
+    <h2 style="margin-top: 2%;">A Creator of Functional Art</h2>
+    <h3>I've recently Graduated from Antonelli Institute and I'm very excited to push forward to a future as a Graphic Designer. I strive to bring a new feeling to design and how it interacts with people. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create work that fits in to stand out in our surroundings.</h3> 
     <hr>
-  <h1>Services</h1>
+  <h1 style ="margin-top: 2%;">Services</h1>
   <div class="row">
-    <div class="col-sm-4">
+    <div style ="margin-top: 4%;" class="col-sm-4">
       <h3>Graphic Design</h3>
-      
       <h3>
-      My goal is to provide functional work that will timelessly represent you. I strive to create perfect design that creates a sense of pride for your brand.
-    </h3>
+      My goal is to provide functional work that will timelessly represent you. I strive to create perfect design that creates a sense of pride for your brand.</h3>
+     <img src ="img/aboutme-img/logoex.jpg">
     </div>
-    <div class="col-sm-4">
-      <h3>Strategy</h3>
-     
-      <h3>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing experiences start.</h3>
+    <div style ="margin-top: 4%;" class="col-sm-4">
+      <h3>Branding</h3>
+      <h3>I help clients construct and maintain a solid brand strategy to help improve their appearance and give their company a more professional feel.</h3>
+      <img src ="img/aboutme-img/brandingex.jpg">
     </div>
-    <div class="col-sm-4"> 
+    <div style ="margin-top: 4%;" class="col-sm-4"> 
       <h3>Illustration</h3>
-      
       <h3>My design reflects my background in Illustration, I supply an eye catching style that evokes one's imagination.</h3>
+      <img style ="margin-top: 6%;" src ="img/aboutme-img/illex.jpg">
     </div>
   </div>
-    <div class="col-md-12">
-      <card>
-        <div class="places-buttons d-flex justify-content-center">
-          <div slot="footer" class="row button-container">
-            <div class="col-lg-12 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-sm-3">
-                  <a href ="https://www.behance.net/thatguysdesign" target="blank">
-                  <base-button size="lg" icon round class="btn-behance">
-                    <i class="fab fa-behance fa-lg"></i>
-                  </base-button>
-                  </a>
-                </div>
-                <div class="col-sm-3">
-                  <a href ="https://www.instagram.com/thatguysdesign" target="blank">
-                  <base-button size="lg" icon round class="btn-instagram">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </base-button>
-                  </a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="tel:+2678855347">
-                   <base-button size="lg" icon round class="btn-phone">
-                     <i class="fas fa-phone fa-lg"></i>
-                   </base-button>
-                  </a>
-                </div>
-                 <div class="col-sm-3"> 
-                  <address>
-                  <a href="mailto:thatguysdesign@gmail.com">
-                   <base-button size="lg" icon round class="btn-envelope-open">
-                     <i class="far fa-envelope-open fa-lg"></i>
-                   </base-button>
-                  </a>
-                  </address>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </card>
-    </div>
  </div>
 </template>
 <script>

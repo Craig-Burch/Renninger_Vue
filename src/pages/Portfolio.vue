@@ -21,7 +21,7 @@
         <a href ="/img/PortfolioPages2.jpg" target="blank">
         <div class="workcontainer"> 
           <img src="/img/PortfolioPages2.jpg">
-          <div class="overlay">
+          <div class="overlay2">
             <div class="text">
               <hr>
                net
@@ -37,7 +37,7 @@
       <a href ="/img/PortfolioPages3.jpg" target="blank">
        <div class="workcontainer">
          <img src="/img/PortfolioPages3.jpg">
-         <div class="overlay">
+         <div class="overlay3">
            <div class="text">
             <hr>
              porsche
@@ -69,7 +69,7 @@
       <a href ="/img/PortfolioPages5.jpg" target="blank">
        <div class="workcontainer">
          <img src="/img/PortfolioPages5.jpg">
-         <div class="overlay">
+         <div class="overlay2">
            <div class="text">
             <hr>
              dirty thoughts
@@ -85,7 +85,7 @@
         <a href ="/img/PortfolioPages7.jpg" target="blank">
         <div class="workcontainer"> 
           <img src="/img/PortfolioPages7.jpg">
-          <div class="overlay">
+          <div class="overlay3">
             <div class="text">
               <hr>
                the clef club
@@ -117,7 +117,7 @@
         <a href ="/img/PortfolioPages9.jpg" target="blank">
         <div class="workcontainer"> 
           <img src="/img/PortfolioPages9.jpg">
-          <div class="overlay">
+          <div class="overlay2">
             <div class="text">
               <hr>
                dublin
@@ -133,7 +133,7 @@
       <a href ="/img/PortfolioPages10.jpg" target="blank">
        <div class="workcontainer">
          <img src="/img/PortfolioPages10.jpg">
-         <div class="overlay">
+         <div class="overlay3">
            <div class="text">
             <hr>
              dublin
@@ -165,7 +165,7 @@
       <a href ="/img/PortfolioPages14.jpg" target="blank">
        <div class="workcontainer">
          <img src="/img/PortfolioPages14.jpg">
-         <div class="overlay">
+         <div class="overlay2">
            <div class="text">
             <hr>
              battle
@@ -181,7 +181,7 @@
         <a href ="/img/PortfolioPages15.jpg" target="blank">
         <div class="workcontainer"> 
           <img src="/img/PortfolioPages15.jpg">
-          <div class="overlay">
+          <div class="overlay3">
             <div class="text">
               <hr>
                oral-b
@@ -213,7 +213,7 @@
         <a href ="/img/PortfolioPages17.jpg" target="blank">
         <div class="workcontainer"> 
           <img src="/img/PortfolioPages17.jpg">
-          <div class="overlay">
+          <div class="overlay2">
             <div class="text">
               <hr>
                game workshop
@@ -229,7 +229,7 @@
       <a href ="/img/PortfolioPages18.jpg" target="blank">
        <div class="workcontainer">
          <img src="/img/PortfolioPages18.jpg">
-         <div class="overlay">
+         <div class="overlay3">
            <div class="text">
             <hr>
              fight finder
@@ -240,7 +240,7 @@
        </a>
       </card>
     </div>
-    <div class="col-md-12">
+   <!--  <div class="col-md-12">
       <card>
         <div class="places-buttons d-flex justify-content-center">
           <div slot="footer" class="row button-container">
@@ -281,7 +281,7 @@
           </div>
         </div>
       </card>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
