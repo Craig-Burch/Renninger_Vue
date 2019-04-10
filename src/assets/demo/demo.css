@@ -216,6 +216,8 @@ address {
   width: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+   -webkit-transform-style: preserve-3d;
+
 }
 
 .flip-card:hover .flip-card-inner {
@@ -228,6 +230,7 @@ address {
   background-color: transparent;
   width: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -239,6 +242,7 @@ address {
 /* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(-180deg);
 }
 
 
