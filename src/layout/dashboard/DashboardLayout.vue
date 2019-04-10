@@ -2,8 +2,8 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/portfolio" :name="$t('portfolio')" icon="tim-icons icon-image-02"/>
         <sidebar-link to="/branding" :name="$t('branding')" icon="tim-icons icon-badge"/>
+        <sidebar-link to="/portfolio" :name="$t('portfolio')" icon="tim-icons icon-image-02"/>
         <sidebar-link to="/about" :name="$t('about me')" icon="tim-icons icon-single-02"/>
         <sidebar-link to="/contact" :name="$t('contact')" icon="tim-icons icon-chat-33"/>
       </template>

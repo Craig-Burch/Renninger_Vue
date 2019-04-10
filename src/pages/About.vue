@@ -7,21 +7,21 @@
     <hr>
   <h1 style ="margin-top: 2%;">Services</h1>
   <div class="row">
-    <div style ="margin-top: 4%;" class="col-sm-4">
+    <div class="col-sm-4">
       <h3>Graphic Design</h3>
-      <h3>
+      <img src ="img/aboutme-img/logoex.jpg">
+      <h3 style ="margin-top: 4.5%;">
       My goal is to provide functional work that will timelessly represent you. I strive to create perfect design that creates a sense of pride for your brand.</h3>
-     <img src ="img/aboutme-img/logoex.jpg">
     </div>
-    <div style ="margin-top: 4%;" class="col-sm-4">
+    <div class="col-sm-4">
       <h3>Branding</h3>
-      <h3>I help clients construct and maintain a solid brand strategy to help improve their appearance and give their company a more professional feel.</h3>
       <img src ="img/aboutme-img/brandingex.jpg">
+      <h3 style ="margin-top: 4.5%;">I help clients construct and maintain a solid brand strategy to help improve their appearance and give their company a more professional feel.</h3>
     </div>
-    <div style ="margin-top: 4%;" class="col-sm-4"> 
+    <div class="col-sm-4"> 
       <h3>Illustration</h3>
-      <h3>My design reflects my background in Illustration, I supply an eye catching style that evokes one's imagination.</h3>
-      <img style ="margin-top: 6%;" src ="img/aboutme-img/illex.jpg">
+       <img style ="" src ="img/aboutme-img/illex.jpg">
+      <h3 style ="margin-top: 4.5%;">My design reflects my background in Illustration, I supply an eye catching style that evokes one's imagination.</h3>
     </div>
   </div>
  </div>
