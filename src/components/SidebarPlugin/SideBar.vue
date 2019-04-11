@@ -7,8 +7,12 @@
         -->
     <!-- -->
     <div class="sidebar-wrapper" id="style-3">
-      <div class="logo">
-        <a href="http://renninger.design/#/portfolio"
+      <div class ="update-logo">
+        <img src="https://imgur.com/9i3JLtF.png">
+      </div>
+      <!-- original header logo for menu -->
+      <!-- <div class="logo">
+        <a href="http://renninger.design/#/branding"
            aria-label="sidebar mini logo"
            class="simple-text logo-mini">
           <div class="logo-img"
@@ -18,10 +22,10 @@
               alt="">
           </div>
         </a>
-        <a href="http://renninger.design/#/portfolio" class="simple-text logo-normal">
+        <a href="http://renninger.design/#/branding" class="simple-text logo-normal">
           {{title}}
         </a>
-      </div>
+      </div> -->
       <slot>
 
       </slot>
@@ -135,3 +139,18 @@
     }
   };
 </script>
+<style>
+  /* menu icon and text color*/ 
+  a.nav-link::before {
+    background: #1F1E30 !important;
+  }
+  .tim-icons, .icon-badge i {
+    color:  #1F1E30 !important;
+  }
+  li.nav-item p {
+    color:  #1F1E30 !important;
+    font-size: 13px;
+  }
+</style>
+
+

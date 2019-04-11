@@ -48,4 +48,14 @@
   export default {};
 </script>
 <style>
+
+  a {
+    color:white;
+  }
+   a:hover {
+    color:white;
+    transition: .5s ease;
+    color: #EC7203;
+  }
+
 </style>

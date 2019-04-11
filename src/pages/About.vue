@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-sm-4">
       <h3>Graphic Design</h3>
-      <img src ="img/aboutme-img/logoex.jpg">
+      <img src ="img/aboutme-img/graphicdesignex.jpg">
       <h3 style ="margin-top: 4.5%;">
       My goal is to provide functional work that will timelessly represent you. I strive to create perfect design that creates a sense of pride for your brand.</h3>
     </div>

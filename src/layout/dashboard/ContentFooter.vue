@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="http://renninger.design/#/portfolio">
+          <a class="nav-link" href="http://renninger.design/#/branding">
             Renninger Design
           </a>
         </li>

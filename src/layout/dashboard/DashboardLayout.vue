@@ -42,3 +42,8 @@ export default {
   }
 };
 </script>
+<style>
+  .wrapper {
+    color: black !important;
+  }
+</style>
