@@ -19,7 +19,7 @@
         </li>
       </ul>
       <div class="copyright">
-        © {{year}} made with <i class="tim-icons icon-heart-2"></i> by
+        © {{year}} made with<span class ="icon-red"> <i class="tim-icons icon-heart-2"></i></span> by
         <a href="http://ilovecode.tech/" target="_blank" rel="noopener">Craig Burch</a>@
         <a href="http://ilovecode.tech/" target="_blank" rel="noopener">iLoveCode.Tech</a> for a better web.
       </div>
@@ -36,4 +36,8 @@
   };
 </script>
 <style>
+   .icon-red i {
+    color:  red !important;
+    padding-left: 2px;
+  }
 </style>
