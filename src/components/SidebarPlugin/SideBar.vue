@@ -10,22 +10,7 @@
       <div class ="update-logo">
         <img src="https://imgur.com/9i3JLtF.png">
       </div>
-      <!-- original header logo for menu -->
-      <!-- <div class="logo">
-        <a href="http://renninger.design/#/branding"
-           aria-label="sidebar mini logo"
-           class="simple-text logo-mini">
-          <div class="logo-img"
-               :class="{'logo-img-rtl': $rtl.isRTL}">
-            <img
-              src="https://i.imgur.com/jzoOT9j.png"
-              alt="">
-          </div>
-        </a>
-        <a href="http://renninger.design/#/branding" class="simple-text logo-normal">
-          {{title}}
-        </a>
-      </div> -->
+     
       <slot>
 
       </slot>
@@ -154,3 +139,20 @@
 </style>
 
 
+
+ <!-- original header logo for menu -->
+      <!-- <div class="logo">
+        <a href="http://renninger.design/#/branding"
+           aria-label="sidebar mini logo"
+           class="simple-text logo-mini">
+          <div class="logo-img"
+               :class="{'logo-img-rtl': $rtl.isRTL}">
+            <img
+              src="https://i.imgur.com/jzoOT9j.png"
+              alt="">
+          </div>
+        </a>
+        <a href="http://renninger.design/#/branding" class="simple-text logo-normal">
+          {{title}}
+        </a>
+      </div> -->
