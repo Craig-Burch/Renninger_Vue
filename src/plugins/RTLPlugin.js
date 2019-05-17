@@ -11,12 +11,15 @@ export default {
           return document.body.classList
         },
         enableRTL() {
-          // this.isRTL = true;
-          // this.getDocClasses().add('rtl');
-          // this.getDocClasses().add('menu-on-right');
-          // this.toggleBootstrapRTL(true);
+          this.isRTL = true;
+          this.getDocClasses().add('rtl');
+          this.getDocClasses().add('menu-on-right');
+          this.toggleBootstrapRTL(true);
         },
         disableRTL() {
+          console.log('document.body.classList', document.body.classList);
+          console.log('type', typeof document.body.classList);
+          
           this.isRTL = false;
           this.getDocClasses().remove('rtl');
           this.getDocClasses().remove('menu-on-right');

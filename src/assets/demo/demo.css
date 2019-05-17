@@ -50,6 +50,11 @@
 }
 
 /*----------------start custom CSS---------------------------------------------------*/
+/*get rid of RTL*/
+body {
+  direction: ltr !important;
+}
+
 /* nav bar edits*/
 /*other color edits are inside "SideBar.vue"*/
 .update-logo {
