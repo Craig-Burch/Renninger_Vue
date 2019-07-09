@@ -296,7 +296,12 @@ address {
    margin-left: 10px;
   }
 }
-
+/* porfolio page media queries */
+@media only screen and (max-width:900px) {
+  .overlay, .overlay2, .overlay3{
+    display: none;
+  }
+}
 /*------------branding page media queries---------------------------------------------*/
 @media only screen and (max-width:1600px) {
 .flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {

@@ -8,12 +8,12 @@
         </div>
         <div class="card-body">
           <div class="typography-line">
-            <h1>
+            <h2>
               <span>PHONE</span>
               <a href="tel:267-885-5347" target="blank">
                267-885-5347
               </a>
-            </h1>
+            </h2>
           </div>
           <div class="typography-line">
             <h2>
@@ -24,20 +24,20 @@
             </h2>
           </div>
           <div class="typography-line">
-            <h3>
+            <h2>
               <span>INSTAGRAM</span>
               <a href ="https://www.instagram.com/thatguysdesign" target="blank">
               https://www.instagram.com/thatguysdesign 
               </a>
-            </h3>         
+            </h2>         
           </div>
           <div class="typography-line">
-            <h4>
+            <h2>
               <span>BEHANCE</span>
               <a href="https://www.behance.net/thatguysdesign" target="blank">
                https://www.behance.net/thatguysdesign 
               </a>
-             </h4> 
+             </h2> 
           </div>
         </div>
       </div>
