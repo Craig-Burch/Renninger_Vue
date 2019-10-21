@@ -1,9 +1,9 @@
 {
-  "name": "vue-black-dashboard",
+  "name": "Vue-Black-Dashboard",
   "version": "1.0.0",
   "private": true,
-  "description": "A sample admin dashboard based on black dashboard UI template",
-  "author": "cristian.jora <joracristi@gmail.com>",
+  "description": "SPA for Renninger Design",
+  "author": "Craig.Burch <CraigJBurch@Gmail.com",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
@@ -13,11 +13,13 @@
     "lint-fix": "vue-cli-service lint --fix"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "chart.js": "^2.7.3",
     "register-service-worker": "^1.5.2",
     "vue": "^2.6.6",
     "vue-chartjs": "^3.4.0",
     "vue-i18n": "^8.8.1",
+    "vue-loading-overlay": "^3.2.0",
     "vue-router": "^3.0.2",
     "vue-router-prefetch": "^1.4.0",
     "vue2-transitions": "^0.2.3"

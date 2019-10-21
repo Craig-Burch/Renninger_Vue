@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid bg-1 text-center">
     <h1>A Man and a Dream.</h1>
-    <img src="img/portrait2.png" alt="portrait">
+    <img class="portrait" src="img/portrait2.png" alt="portrait">
     <h2 style="margin-top: 2%;">A Creator of Functional Art</h2>
     <h3>I strive to bring a new feeling to design and how it interacts with people. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create work that fits in to our surroundings. Allow me to provide you with work that is not only visually appealing but also functional and one of a kind. When I work with a client my goal is new, fresh, and effective design.</h3> 
     <hr>
@@ -27,7 +27,7 @@
  </div>
 </template>
 <script>
-  import NotificationTemplate from './Notifications/NotificationTemplate';
+  // import NotificationTemplate from './Notifications/NotificationTemplate';
   import { BaseAlert } from '@/components';
 
   export default {
@@ -43,19 +43,29 @@
       };
     },
     methods: {
-      notifyVue(verticalAlign, horizontalAlign) {
-        const color = Math.floor(Math.random() * 4 + 1);
-        this.$notify({
-          component: NotificationTemplate,
-          icon: "tim-icons icon-bell-55",
-          horizontalAlign: horizontalAlign,
-          verticalAlign: verticalAlign,
-          type: this.type[color],
-          timeout: 0
-        });
-      }
+      // notifyVue(verticalAlign, horizontalAlign) {
+      //   const color = Math.floor(Math.random() * 4 + 1);
+      //   this.$notify({
+      //     component: NotificationTemplate,
+      //     icon: "tim-icons icon-bell-55",
+      //     horizontalAlign: horizontalAlign,
+      //     verticalAlign: verticalAlign,
+      //     type: this.type[color],
+      //     timeout: 0
+      //   });
+      // }
     }
   };
 </script>
 <style>
+.portrait {
+  height:350px;
+  width:340px;
+}
+@media screen and (max-width: 425px) {
+.portrait {
+  height:275px;
+  width:265px;
+  }
+}
 </style>

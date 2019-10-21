@@ -54,7 +54,21 @@
 body {
   direction: ltr !important;
 }
-
+/*mobile navbar margin*/
+.navbar-toggle {
+  margin-left: -10px !important; 
+}
+@media screen and (max-width: 991px) {
+.navbar .navbar-brand {
+     margin-left: 1px; 
+    position: relative;
+  }
+}
+@media only screen and (max-width:777px) {
+.navbar-toggle {
+  margin-left: -20px !important; 
+  }
+}
 /* nav bar edits*/
 /*other color edits are inside "SideBar.vue"*/
 .update-logo {
@@ -70,8 +84,13 @@ body {
   border:1px solid red;
   z-index: 3 !important;
 }*/
+.sidebar {
+  background: transparent !important;
+}
 .sidebar-wrapper  {
-  background-color: #EC7203 !important;
+  background: linear-gradient(to bottom, #ec7203 0%, #ff9933 99%);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .main-panel {
@@ -133,7 +152,7 @@ hr {
 }
 
 .copyright a {
-  color: #FA0601;
+  color: #ec7203;
 }
 
 .copyright a:hover {
