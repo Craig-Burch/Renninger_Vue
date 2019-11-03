@@ -1,62 +1,17 @@
 <template>
-  <!-- <div class="row">
-    <div class="col-md-12">
-      <div class="card">
-        <div class="card-header mb-5">
-          <h5 class="card-category">Renninger Design</h5>
-          <h3 class="card-title">Contact Information</h3>
-        </div>
-        <div class="card-body">
-          <div class="typography-line">
-            <h2>
-              <span>PHONE</span>
-              <a href="tel:267-885-5347" target="blank">
-               267-885-5347
-              </a>
-            </h2>
-          </div>
-          <div class="typography-line">
-            <h2>
-              <span>EMAIL</span>
-              <a href="mailto:thatguysdesign@gmail.com">
-                thatguysdesign@gmail.com 
-              </a>
-            </h2>
-          </div>
-          <div class="typography-line">
-            <h2>
-              <span>INSTAGRAM</span>
-              <a href ="https://www.instagram.com/thatguysdesign" target="blank">
-              https://www.instagram.com/thatguysdesign 
-              </a>
-            </h2>         
-          </div>
-          <div class="typography-line">
-            <h2>
-              <span>BEHANCE</span>
-              <a href="https://www.behance.net/thatguysdesign" target="blank">
-               https://www.behance.net/thatguysdesign 
-              </a>
-             </h2> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  
  <div class="contact">
   <form @submit.prevent="handleSubmit" enctype="multipart/form-data">
    <div class="row">
 
-    <div class="col-md-3">
-      <div class="contact-info">
-        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+    <div class="col-md-12 contactHeader">
+      <div class="contact-info contactformCOtext">
+        <i class="tim-icons icon-email-85 icon"></i>
         <h2>Contact Me</h2>
-        <h4>Let's talk about your next project!</h4>
+        <h3>Let's talk about your next project!</h3>
       </div>
     </div>
    
-    <div class="col-md-9">
+    <div class="col-md-12 contactBody">
       <div class="contact-form">
         <div class="form-group">
           <label class="control-label" for="firstName">First Name:</label>
@@ -173,28 +128,40 @@ export default {
     color: #EC7203;
   }
   .contact{
-    padding: 4%;
-   /* height: 400px;*/
+    padding-top: .2%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
   }
-  .col-md-3{
-    background: linear-gradient(to bottom, #ff9933 0%, #ec7203 99%);
-    padding: 4%;
+  .contactHeader {
+    background: linear-gradient(to bottom, #ec7203 0%, #ff9933 99%);
+    padding: 2.7%;
     border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
   .contact-info{
-    margin-top:10%;
+    margin-top:3%;
+
   }
-  .contact-info img{
-    margin-bottom: 10%;
+  .contactformCOtext h2 {
+    color: #1F1E30 !important;
+  }
+  .contactformCOtext h3 {
+    color: #1F1E30 !important;
+  }
+  .contactformCOtext img {
+    color: #1F1E30 !important;
+  }
+  .icon {
+    font-size: 5em;
+    margin-bottom: 2.5%;
   }
   .contact-info h2{
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
-  .col-md-9{
+  .contactBody{
     background: #fff;
-    padding: 3%;
-    border-top-right-radius: 0.5rem;
+    padding: 2%;
+    border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
   .contact-form label{
@@ -204,7 +171,6 @@ export default {
     background: #1e1e2f;
     color: #fff;
     font-weight: 600;
-    /*width: 25%;*/
   }
   .contact-form button:focus{
     box-shadow:none;
@@ -216,16 +182,15 @@ export default {
     border-color: #ff9933 !important;
   }
 @media only screen and (max-width:767px) {
- .col-md-9 {
-    border-top-right-radius: 0rem;
-    border-bottom-right-radius: 0rem;
- }
- .col-md-3 {
-   background: linear-gradient(to bottom, #ff9933 0%, #ec7203 99%);
-   padding: 4%;
-   border-top-left-radius: 0.5rem;
-   border-top-right-radius: 0.5rem;
-   border-bottom-left-radius: 0rem;
+ .contact{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .contactHeader {
+    padding: 5%;
+  }
+  .contactBody {
+    padding: 5%;
   }
   .contact-info {
     margin-top:5%;
