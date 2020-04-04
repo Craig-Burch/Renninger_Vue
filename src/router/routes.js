@@ -8,7 +8,7 @@ const Branding = () => import(/* webpackChunkName: "common" */ "@/pages/Branding
 const About = () => import(/* webpackChunkName: "common" */ "@/pages/About.vue");
 const Contact = () => import(/* webpackChunkName: "common" */ "@/pages/Contact.vue");
 
-
+ 
 const routes = [
   {
     path: "/",
