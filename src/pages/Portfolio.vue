@@ -1,11 +1,35 @@
 <template>
   <div class="row">
-    <div class="col-md-6"> 
-      <card>
-      <!-- <a href ="/img/PortfolioPages.jpg" target="blank"> -->
+    <card>
+    <div style="background-color: white; padding:10px; border-radius: 5px; display: inline-block;">
+    <div style="float:left" class="col-md-4"> 
+      <div class="workcontainer" 
+           style="display: flex; 
+             height: 600px; 
+             margin: auto; 
+             border-radius: 10px; ">
 
-       <div @click="modal = true" class="workcontainer cursorOnHover">
-         <img src="/img/portfolio/usAnodizePH.jpg">
+        <div style="margin: auto;">
+      
+        <h1 style="color: #1e1e2f">US Anodize <br> Brand Identity</h1>
+        <h4 style="color: #1e1e2f">While working as the Brand Manager at Industrial Metal Plating
+          I was asked by the Company President to tackle a name
+          change and rebrand that would better fit the nature of their
+          company. The logo is a hexagon to represent the hexagonal
+          Anodize pores in the aluminum processed in the US Anodize
+          plant. The US Anodize color pallet, typography, and overall style
+          references American culture and history to show the
+          companies pride in their country.
+        </h4>
+      </strong>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8"> 
+      
+      <!-- <a href ="/img/PortfolioPages.jpg" target="blank"> -->
+       <div style="float:left" @click="modal = true" class="workcontainer cursorOnHover">
+         <img class="shadow" style="" src="/img/portfolio/usAnodizePH.jpg">
          <div class="overlay">
            <div class="text">        
              {{callToAction}}         
@@ -13,38 +37,44 @@
          </div>
        </div>
        <!-- </a> -->
-      </card>
+      
     </div>
-     <!-- employee modal -->
+  </div>
+    </card>
+ 
+     <!-- modal -->
     <modal class="edit-modal" :show.sync="modal">
       <template slot="header">
-        <h5 class="modal-title">Edit Employee QR Code Information</h5>
+        <h5 class="modal-title"><!-- US Anodize --></h5>
       </template>
-       sss
-        
-          
+      <!-- body -->
+      <div class="row">
+        <div class="col-md-12"> 
+        <card>
+          <img class="shadow" style="" src="/img/portfolio/usAnodize2.jpg">
+        </card>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"> 
+        <card>
+          <img class="shadow" style="" src="/img/portfolio/usAnodize3.jpg">
+        </card>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"> 
+        <card>
+          <img class="shadow" style="" src="/img/portfolio/usAnodize4.jpg">
+        </card>
+        </div>
+      </div>  
       <template slot="footer">
-        <!-- <base-button 
-          type="secondary" 
-          @click="modal = false"
-          class="animation-on-hover" 
-          >
-            Close
-        </base-button>
-        <base-button 
-          type="info" 
-          v-model="info"
-          @click="handleSubmit"
-          class="animation-on-hover" 
-         
-          >
-           Save changes
-        </base-button> -->
-        footer
+        <!-- footer -->
       </template>
     </modal>
-  </div>
-  
+
+   </div>
 </template>
 <script>
   import NotificationTemplate from './Notifications/NotificationTemplate';
@@ -89,4 +119,13 @@
   };
 </script>
 <style>
+  .shadow {
+  box-shadow: 0px 3px 15px rgba(0,0,0,5);
+}
+/*modal width desktop*/
+.modal-dialog {
+    max-width: 900px !important;
+    margin-top: -400px !important;
+    margin: 1.75rem auto;
+}
 </style>
