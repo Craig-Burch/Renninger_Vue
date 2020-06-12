@@ -205,10 +205,10 @@ hr {
   opacity: 0.8;
 }
 .workcontainer:hover .overlay2 {
-  opacity: 1;
+  opacity: 0.8;
 }
 .workcontainer:hover .overlay3 {
-  opacity: 1;
+  opacity: 0.8;
 }
 .text {
   display:block;
@@ -245,7 +245,7 @@ address {
 /*----------------------branding page css---------------------------------------*/
 
 .flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
-  height: 385px;
+  height: 530px;
 }
 
 .flip-card {
@@ -327,6 +327,13 @@ address {
   }
 }
 /*------------branding page media queries---------------------------------------------*/
+
+@media only screen and (max-width:1920px) {
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+  height: 385px;
+  }
+}
+
 @media only screen and (max-width:1600px) {
 .flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
   height: 300px;
