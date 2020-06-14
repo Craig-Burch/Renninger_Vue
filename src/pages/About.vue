@@ -3,7 +3,7 @@
     <h1>A Man and a Dream.</h1>
     <img class="portrait" src="img/portrait2.png" alt="portrait">
     <h2 style="margin-top: 2%;">A Creator of Functional Art</h2>
-    <h3>I strive to bring a new feeling to design and how it interacts with people. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create work that fits in to our surroundings. Allow me to provide you with work that is not only visually appealing but also functional and one of a kind. When I work with a client my goal is new, fresh, and effective design.</h3> 
+    <h3 style="width: 85%; margin-left: 7.5%;">I strive to bring a new feeling to design and how it interacts with people. As a designer I have a lot of passion for beauty and functionality in modern society. My goal is to use the skills I've acquired as a Designer and Illustrator to create work that fits in to our surroundings. Allow me to provide you with work that is not only visually appealing but also functional and one of a kind. When I work with a client my goal is new, fresh, and effective design.</h3> 
     <hr>
   <h1 style ="margin-top: 2%;">Services</h1>
   <div class="row">

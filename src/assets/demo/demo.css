@@ -165,12 +165,13 @@ hr {
 
 /*Porfolio Page Overlay Effects--------------------------------------------------------*/
 .overlay {
+  margin-top: 10px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 97%;
   width: 100%;
   border-radius: 5px;
   opacity: 0;
@@ -179,23 +180,26 @@ hr {
 }
 .overlay2 {
   position: absolute;
+  margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 97%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #EC7203;
+  border-radius: 5px;
 }
 .overlay3 {
+  margin-top: 10px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 97%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;

@@ -1,5 +1,5 @@
 <template>
-   <div class="row">
+   <div class="row" id="wrapper">
     <div class="col-md-4">
        <div class="flip-card">
          <div class="flip-card-inner">
@@ -170,7 +170,18 @@
     //       timeout: 0
     //     });
     //   }
-    }
+
+    // reload(){
+    // var container = document.getElementById("wrapper");
+    // var content = container.innerHTML;
+    // container.innerHTML= content; 
+    // console.log("Refreshed"); 
+    //   }
+    },
+
+    // created() {
+    //   this.reload();
+    // }
   };
 </script>
 <style>
