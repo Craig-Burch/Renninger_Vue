@@ -8,6 +8,7 @@
            <div class="workcontainer centerRowItems" >
             <div style="margin: auto;">
               <h1 style="color: #1e1e2f">Watson Maack <br> Brand Identity</h1>
+              <img  @click="modalWatson = true" class="shadow mainImages mobilePortImages" src="/img/portfolio/1400w/wm1.jpg">
               <h3 style="color: #1e1e2f">While Watson Maack was planning a show in my area I was asked to take a crack at redesigning his personal brand and planning the merchandise and overall feel of his show. The Watson Maack graphics are references to his musical style and overall vibe. In the end, I created multiple shirt designs that were sent to print, a backdrop for the stage, table cards, fliers, posters, VIP tags and lanyards, as well as a Limited Edition shirt design that was hand pressed by myself. This shirt was white and included a unique fluid graphic that referenced the street wear trend of the time. Check out Watson Maack on Spotify!
               </h3>             
             </div>
@@ -16,7 +17,7 @@
           <div class="portColumns"> 
              <div @click="modalWatson = true" class="workcontainer cursorOnHover centerRowItems">
                <div style="margin: auto;">
-                <img class="shadow mainImages" style="" src="/img/portfolio/1400w/wm1.jpg">
+                <img class="shadow mainImages desktopPortImages" src="/img/portfolio/1400w/wm1.jpg">
                 <div class="overlay2">
                  <div class="text">        
                    {{callToAction}}         
@@ -106,10 +107,12 @@
     <div class="row">
      <card>
       <div style="background-color: white; padding:10px; border-radius: 5px; display: inline-block;">
+
         <div class="portColumns"> 
           <div class="workcontainer centerRowItems" >
             <div style="margin: auto;">
               <h1 style="color: #1e1e2f">Seraphic <br> Brand Identity</h1>
+              <img  @click="modalSeraphic = true" class="shadow mainImages mobilePortImages" src="/img/portfolio/1400w/seraphic1.jpg">
               <h3 style="color: #1e1e2f">Seraphic, originally Seraphic Wood and Steel, is the name held by two skilled craftsman and their apprentices. My task was to take their brand which already had a tight-knit following and give them a face that could inspire customers just as their work does. My first challenge was to find a way to represent the many crafts and oddities Seraphic encompasses. I decided the best course of action would be to present each category with a separate, recognizable icon that could be drawn back to the main logo. This resulted in multiple sections of Seraphic.
              </h3>   
             </div>
@@ -118,7 +121,7 @@
        <div class="portColumns"> 
         <div @click="modalSeraphic = true" class="workcontainer cursorOnHover centerRowItems">
         <div style="margin: auto;">
-          <img class="shadow mainImages" src="/img/portfolio/1400w/seraphic1.jpg">
+          <img class="shadow mainImages desktopPortImages" src="/img/portfolio/1400w/seraphic1.jpg">
            <div class="overlay3">
             <div class="text">        
              {{callToAction}}         
@@ -184,6 +187,7 @@
         <div class="workcontainer centerRowItems" >
           <div style="margin: auto;">
            <h1 style="color: #1e1e2f">IMP <br> Brand Identity</h1>
+           <img  @click="modalIMP = true" class="shadow mainImages mobilePortImages" src="/img/portfolio/1400w/imp1.jpg">
            <h3 style="color: #1e1e2f">Industrial Metal Plating has given me my foot in the door into my design career. Starting out as a design intern, controlling printers and heat pressing parts, I slowly worked my way to the Brand Manager position. As the Brand Manager I control all items that involve the graphics and branding of IMP. This involved developing a more eye catching brand identity as well as print media, new brand guidelines, royalty free camouflages, Infographics, truck wraps, and much more.
            </h3>
          </div>
@@ -192,7 +196,7 @@
      <div class="portColumns"> 
        <div @click="modalIMP = true" class="workcontainer cursorOnHover centerRowItems">
         <div style="margin: auto;">
-         <img class="shadow mainImages" src="/img/portfolio/1400w/imp1.jpg">
+         <img class="shadow mainImages desktopPortImages" src="/img/portfolio/1400w/imp1.jpg">
          <div class="overlay2">
            <div class="text">        
              {{callToAction}}         
@@ -329,6 +333,7 @@
          <div class="workcontainer centerRowItems" >
            <div style="margin: auto;">
              <h1 style="color: #1e1e2f">The Dog House <br> Brand Identity</h1>
+             <img  @click="modalDogHouse = true" class="shadow mainImages mobilePortImages" src="/img/portfolio/1400w/dh1.jpg">
              <h3 style="color: #1e1e2f">The Dog House Branding holds a spot near and dear to my heart. Not only is The Dog House a business started by my mother, Dee Ann Renninger, but it is also the first project That allowed my good friend Craig and I to combine our crafts and develop a beautiful brand package. Craig Burch (ilovecode.tech) is responsible for the web development of doghousepa.com. The logo is a reference to The Dog House's first location, a very small almost shack-like salon that once housed a small barber shop. I used very friendly type and colors to reference their very personal business. Dogs normally don't like their groomers but The Dog House offers an exception to that. 
             </h3>
          </div>
@@ -337,7 +342,7 @@
       <div class="portColumns"> 
        <div @click="modalDogHouse = true" class="workcontainer cursorOnHover centerRowItems">
         <div style="margin: auto;">
-         <img class="shadow mainImages" src="/img/portfolio/1400w/dh1.jpg">
+         <img class="shadow mainImages desktopPortImages" src="/img/portfolio/1400w/dh1.jpg">
          <div class="overlay3">
            <div class="text">        
              {{callToAction}}         
@@ -389,6 +394,7 @@
        <div class="workcontainer centerRowItems" >
         <div style="margin: auto;">
           <h1 style="color: #1e1e2f">US Anodize <br> Brand Identity</h1>
+          <img  @click="modalAnodize = true" class="shadow mainImages mobilePortImages" src="/img/portfolio/1400w/usAnon1.jpg">
           <h3 style="color: #1e1e2f">While working as the Brand Manager at Industrial Metal Plating
            I was asked by the Company President to tackle a name
            change and rebrand that would better fit the nature of their
@@ -404,7 +410,7 @@
     <div class="portColumns"> 
       <div @click="modalAnodize = true" class="workcontainer cursorOnHover centerRowItems">
         <div style="margin: auto;">
-         <img class="shadow" style="" src="/img/portfolio/1400w/usAnon1.jpg">
+         <img class="shadow desktopPortImages"  src="/img/portfolio/1400w/usAnon1.jpg">
          <div class="overlay2">
            <div class="text">        
              {{callToAction}}         
@@ -582,6 +588,20 @@
   }
 }
 */
+img.shadow.mainImages.mobilePortImages {
+    margin-bottom: 20px !important;
+  }
+@media only screen and (min-width: 1600px)  {
+  .mobilePortImages {
+    display: none;   
+  }
+}
+@media only screen and (max-width: 1600px)  {
+  .desktopPortImages {
+    display: none;
+  }
+}
+
 .shadow {
   box-shadow: 0px 3px 15px rgba(0,0,0,5);
 }
@@ -659,20 +679,20 @@ img.modalsImages  {
 @media only screen and  (max-width: 480px)  {
 
   .seraphicModal {
-    margin-top: -220.2% !important
+    margin-top: -60.2% !important
   }
   .dhModal {
-    margin-top: -500.5% !important
+    margin-top: -24.5% !important
   }
 
 }
-@media only screen and  (max-width: 480px)  {
+@media only screen and  (max-width: 375px)  {
 
   .seraphicModal {
-    margin-top: -450.2% !important
+    margin-top: -60.2% !important
   }
   .dhModal {
-    margin-top: -760.5% !important
+    margin-top: -90.5% !important
   }
 
 }

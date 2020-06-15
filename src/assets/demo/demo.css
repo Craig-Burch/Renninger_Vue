@@ -50,6 +50,11 @@
 }
 
 /*----------------start custom CSS---------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 20px;
+  }
+}
 /*get rid of RTL*/
 body {
   direction: ltr !important;
@@ -171,7 +176,7 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 97%;
+  height: 100%;
   width: 100%;
   border-radius: 5px;
   opacity: 0;
@@ -185,7 +190,7 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 97%;
+  height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -193,13 +198,12 @@ hr {
   border-radius: 5px;
 }
 .overlay3 {
-  margin-top: 10px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 97%;
+  height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
